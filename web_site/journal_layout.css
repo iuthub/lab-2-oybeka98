@@ -1,0 +1,43 @@
+h1,h2,span
+{
+		font-family: "Georgia";
+	color: #009097;
+
+}
+body
+{
+	background-image: url("./images/background.gif");
+}
+body > #global
+{
+
+	border: 10px white solid;
+	background: white;
+	margin: 0 10%;
+}
+#header
+{
+	
+	background-color: #A8F0F0;
+	text-align: right;	
+}
+#header > h2
+{
+	font-size: 14pt;
+}
+.content
+{
+	border: 5px solid #C2E9E9;
+	background: #E8FBFB;
+	padding: 5px;
+	margin-top: 10px;
+	overflow: auto;
+}
+.content > h2 > span
+{
+	border-bottom: 2px dashed #009097;	
+}
+.contextImage
+{
+float: right;
+}
